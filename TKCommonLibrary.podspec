@@ -14,12 +14,12 @@ s.author = { "Kryg Tomasz" => "kryguu@gmail.com" }
 
 s.homepage = "https://github.com/KrygTomasz/TKCommonLibrary"
 
-s.source = { :git => "https://github.com/KrygTomasz/TKCommonLibrary.git", :tag => "#{s.version}"}
+s.source = { :git => "https://github.com/KrygTomasz/TKCommonLibrary.git", :tag => s.version.to_s}
 
 s.framework = "UIKit"
 
 s.source_files = "TKCommonLibrary/**/*.{swift}"
 
-s.resources = "TKCommonLibrary/**/*.{png,jpeg,jpg,storyboard,xib}"
+#s.resources = "TKCommonLibrary/**/*.{png,jpeg,jpg,storyboard,xib}"
 
 end
